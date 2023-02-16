@@ -2,18 +2,18 @@ package com.example.domain;
 
 public class Car {
 
-	private String carName;
+	private String carName3;
 	
 	private String color;
 	
 	private Integer speed;
 
-	public String getCarName() {
-		return carName;
+	public String getCarName3() {
+		return carName3;
 	}
 
-	public void setCarName(String carName) {
-		this.carName = carName;
+	public void setCarName3(String carName3) {
+		this.carName3 = carName3;
 	}
 
 	public String getColor() {
@@ -34,7 +34,7 @@ public class Car {
 
 	@Override
 	public String toString() {
-		return "Car [carName=" + carName + ", color=" + color + ", speed=" + speed + "]";
+		return "Car [carName3=" + carName3 + ", color=" + color + ", speed=" + speed + "]";
 	}
-	
+
 }

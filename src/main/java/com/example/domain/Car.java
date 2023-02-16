@@ -3,9 +3,9 @@ package com.example.domain;
 public class Car {
 
 	private String carName3;
-	
+
 	private String color;
-	
+
 	private Integer speed;
 
 	public String getCarName3() {
@@ -34,7 +34,7 @@ public class Car {
 
 	@Override
 	public String toString() {
+
 		return "Car [carName3=" + carName3 + ", color=" + color + ", speed=" + speed + "]";
 	}
-
 }
